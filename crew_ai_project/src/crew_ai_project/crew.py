@@ -8,7 +8,7 @@ from crewai.agents.agent_builder.base_agent import BaseAgent
 @CrewBase
 class CrewAiProject():
     """CrewAiProject crew"""
-
+    agent_config = "config/agents.yml"
     agents: list[BaseAgent]
     tasks: list[Task]
 
